@@ -3,6 +3,14 @@
         margin: 0;
     }
     
+    body {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
     h1 {
         font-family: "Big Shoulders Display", cursive;
         font-weight: 700;
@@ -62,6 +70,7 @@
         border-radius: 100px;
         border: none;
         cursor: pointer;
+        transition: ease-in .3s;
     }
     
     .btn button:hover {
@@ -101,7 +110,7 @@
         font-size: 15px;
     }
     
-    @media screen and (max-width: 375px) {
+    @media screen and (max-width: 792px) {
         .flex-container {
             display: flex;
             flex-direction: column;
